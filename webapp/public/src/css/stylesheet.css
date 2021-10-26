@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'cirth_ereborregular';
+    src: url('../fonts/erebor-webfont.woff2') format('woff2'),
+         url('../fonts/erebor-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+    font-family: 'cirth_ereborregular'
+}
+
+body {
+    background-color:rgb(27, 27, 27);
+    color:white;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 5px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: none !important;
+  }
+
+  .content {
+      padding-top: 2%;
+      padding-left: 5%;
+  }
+
+#encoded {
+    font-size: 3.5em;
+    font-family: 'cirth_ereborregular';
+    color: white;
+    text-shadow: 5px 5px 5px #0c0c0c;
+}
+
+#label {
+    font-family: monospace;
+    font-size:2em;
+}
+
+
